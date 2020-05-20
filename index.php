@@ -7,7 +7,7 @@
 if( isset($_GET['controller']) ) {
 	$controller = $_GET['controller'];
 }else {
-	$controller = 'index';
+	$controller = 'articles_list';
 }
 
 $path = 'controllers/'.$controller.'.controller.php';
