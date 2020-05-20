@@ -21,6 +21,7 @@
 				<p>
 					<?php echo $article['auteur']; ?>
 				</p>
+				<a href="?controller=article_single&slug=<?php echo $article['slug'] ?>">Voir l'article</a>
 			</article>
 
 		<?php endforeach; ?>
